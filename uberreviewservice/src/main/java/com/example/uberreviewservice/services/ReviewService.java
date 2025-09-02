@@ -29,10 +29,10 @@ public class ReviewService implements CommandLineRunner {
 //
 //        reviewRepository.save(r);
 
-        List<Review> reviewList = reviewRepository.findAll();
-
-        for(Review review : reviewList){
-            System.out.println(review.toString());
-        }
+//        List<Review> reviewList = reviewRepository.findAll();
+//
+//        for(Review review : reviewList){
+//            System.out.println(review.toString());
+//        }
     }
 }
