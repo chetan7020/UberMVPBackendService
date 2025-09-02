@@ -43,10 +43,10 @@ public class ReviewService implements CommandLineRunner {
 //        reviewRepository.save(r);
 //        bookingRepository.save(b);
 
-        Optional<Booking> obj = bookingRepository.findById(2L);
-        if(obj.isPresent()){
-            bookingRepository.delete(obj.get());
-        }
+//        Optional<Booking> obj = bookingRepository.findById(2L);
+//        if(obj.isPresent()){
+//            bookingRepository.delete(obj.get());
+//        }
 
 //        List<Review> reviewList = reviewRepository.findAll();
 //
