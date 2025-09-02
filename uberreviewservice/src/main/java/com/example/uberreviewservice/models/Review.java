@@ -16,6 +16,8 @@ import java.util.Date;
 @ToString
 @SuperBuilder
 @Inheritance(strategy = InheritanceType.JOINED)
+@NoArgsConstructor
+@AllArgsConstructor
 public class Review extends BaseModel{
     @Column(nullable = false)
     private String Content;
