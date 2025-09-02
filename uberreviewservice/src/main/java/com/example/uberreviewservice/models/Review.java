@@ -9,7 +9,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.util.Date;
 
 @Entity
-@Table(name = "BookingReview")
+@Table(name = "booking_review")
 @Getter
 @Setter
 @ToString
